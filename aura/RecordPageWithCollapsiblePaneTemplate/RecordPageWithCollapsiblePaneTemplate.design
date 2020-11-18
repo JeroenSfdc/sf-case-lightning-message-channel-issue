@@ -1,0 +1,13 @@
+<design:component label="Header, Main and Collapsible Right Sidebar">
+    <flexipage:template>
+        <flexipage:region name="header" defaultWidth="LARGE">
+            <flexipage:formfactor type="LARGE" width="LARGE"/>
+        </flexipage:region>
+        <flexipage:region name="main" defaultWidth="MEDIUM">
+            <flexipage:formfactor type="LARGE" width="LARGE"/>
+        </flexipage:region>
+        <flexipage:region name="sidebar" defaultWidth="SMALL">
+            <flexipage:formfactor type="LARGE" width="LARGE"/>
+        </flexipage:region>
+    </flexipage:template>
+</design:component>
