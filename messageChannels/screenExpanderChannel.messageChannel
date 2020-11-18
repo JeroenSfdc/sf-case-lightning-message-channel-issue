@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This Lightning Message Channel sends information to a Lightning Page / Template (Aura). https://imcdgroup.atlassian.net/browse/SFDP-8849</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Should Lightning Page collapse the right-hand side region?</description>
+        <fieldName>expanded</fieldName>
+    </lightningMessageFields>
+    <masterLabel>ScreenExpanderChannel</masterLabel>
+</LightningMessageChannel>

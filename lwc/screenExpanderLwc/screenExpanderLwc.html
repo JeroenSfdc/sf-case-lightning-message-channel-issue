@@ -1,0 +1,10 @@
+<template>
+    <div class={_cssContainer} onclick={_expand} >
+        <template if:false= {_expanded}>
+            <i class="fa fa-caret-right"></i>
+        </template>
+        <template if:true= {_expanded}>
+            <i class="fa fa-caret-left"></i>
+        </template>
+    </div>
+</template>
